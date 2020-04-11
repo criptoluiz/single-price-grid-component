@@ -20,6 +20,7 @@ h1 {
 }
 
 h2 {
+  font-weight: 500;
   color: var(--yellow);
 }
 
@@ -39,6 +40,7 @@ p {
   align-items: center;
   justify-content: center;
   padding: 0.75rem;
+  padding-top: 2.5rem;
 }
 
 .box {
@@ -52,9 +54,10 @@ p {
 }
 
 #item-a {
-  padding-top: 2.5rem;
+  padding-top: 1.5rem;
   padding-left: 2.5rem;
   flex: 0 0 45%;
+  min-height: 45%;
   max-height: 45%;
 }
 
