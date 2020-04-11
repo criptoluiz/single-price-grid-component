@@ -11,6 +11,10 @@ html {
     font-family: 'Karla', sans-serif;
 }
 
+body {
+  background-color: var(--light-gray);
+}
+
 h1 {
   color: var(--cyan);
 }
@@ -34,10 +38,12 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 2em;
 }
 
 .box {
-  width: 635px;
+  background-color: white;
+  width: 735px;
   height: 475px;
   display: flex;
   flex-direction: column;
@@ -46,7 +52,8 @@ p {
 }
 
 #item-a {
-  padding: 3rem;
+  padding-top: 2.5rem;
+  padding-left: 2.5rem;
   flex: 0 0 45%;
   max-height: 45%;
 }
@@ -58,19 +65,47 @@ p {
 }
 
 #item-b {
+  box-sizing: border-box;
   background-color: #2ab2af;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
-  max-height: 100%;
+  flex: 0 0 50%;
+  border-bottom-left-radius: 7px;
+  padding-left: 2.5rem;
+  padding-top: 1.5rem
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0;
+}
+
+span {
+  font-size: 1rem;
+  color: var(--light-gray);
+  font-weight: 400;
+}
+
+button {
+  width: 237px;
+  height: 50px;
+  background-color: var(--yellow);
+  border-style: none;
+  border-radius: 7px;
+  color: white;
+  font-weight: 700;
 }
 
 #item-c {
+  box-sizing: border-box;
   background-color: #4bbebc;
   justify-content: center;
   align-items: left;
-  padding: 3rem;
-  max-height: 100%;
+  flex: 0 0 50%;
+  border-bottom-right-radius: 7px;
+  padding-left: 2.5rem;
+  padding-top: 1.5rem;
 }
 
 
