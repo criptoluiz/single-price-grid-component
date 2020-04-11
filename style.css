@@ -8,6 +8,7 @@
 html {
     box-sizing: border-box;
     font-size: 16px;
+    font-family: 'Karla', sans-serif;
 }
 
 h1 {
@@ -26,6 +27,9 @@ p {
   color: white;
 }
 
+#p-gray {
+  color: var(--grayish-blue);
+}
 .container {
   display: flex;
   align-items: center;
