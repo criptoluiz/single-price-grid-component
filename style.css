@@ -38,7 +38,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 2em;
+  padding: 0.75rem;
 }
 
 .box {
@@ -95,6 +95,8 @@ button {
   border-radius: 7px;
   color: white;
   font-weight: 700;
+  font-size: 1rem
+  box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 #item-c {
@@ -112,6 +114,29 @@ button {
 
 
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 450px) {
+
+  .box {
+    max-width: 100%;
+  }
+
+  .offer {
+  flex-direction: column;
+  max-width: 100%;
+}
+#item-a {
+  padding-bottom: 4.5rem;
+  padding-left: 1rem;
+  
+}
+#item-b {
+  border-bottom-left-radius: 0px;
+  padding-bottom: 2rem;
+}
+
+#item-c {
+  border-bottom-left-radius: 7px;
+}
+
 
 }
